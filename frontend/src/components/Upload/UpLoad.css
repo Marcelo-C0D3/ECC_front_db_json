@@ -1,0 +1,31 @@
+.container {
+    background-color: rgba(136, 131, 131, 0.075);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.699);
+    padding: 10px 14px 14px;
+    border-radius: 5px;
+    overflow: hidden;
+    max-width: 200ch;
+    max-height: 40px;
+    text-overflow: ellipsis;
+}
+
+.image-upload > input
+{
+    display: none;
+}
+
+.image-upload img
+{
+    width: 100%;
+    cursor: pointer;
+}
+
+.limitCells
+{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    word-wrap: break-word;
+    max-width: 100ch;
+    max-height: 40px;
+    text-overflow: ellipsis;
+}

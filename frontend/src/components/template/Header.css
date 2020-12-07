@@ -3,9 +3,15 @@ header.header {
     padding: 0px 25px;
     overflow: hidden;
     white-space: nowrap;
-    box-shadow: var(--shadow);
+    box-shadow: inset 0px 0px 35px rgba(51, 58, 83, 0.267);
 }
 
 header.header h1 {
-    font-size: 1.8em;
+    font-size: 1.9em;
+    font-family: arial;
+}
+
+header.header p {
+    font-size: 1.6em;
+    font-family: arial;
 }

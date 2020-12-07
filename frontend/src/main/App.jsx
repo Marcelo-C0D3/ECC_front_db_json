@@ -8,7 +8,7 @@ import Logo from '../components/template/Logo'
 import Nav from '../components/template/Nav'
 import Routes from './Routes'
 import Footer from '../components/template/Footer'
-
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
 
 export default props =>
     <BrowserRouter>

@@ -7,13 +7,16 @@ export default props =>
         <nav className="menu">
             {/* Refatorar em casa! */}
             <Link to="/">
-                <i className="fa fa-home"></i> Home
+                <i className="fa fa-home mr-2"></i> Home
             </Link>
             <Link to="/UpLoad">
-                <i className="fa fa-users"></i> Upload
+                <i className="fa fa-upload mr-2"></i> Upload
             </Link>
             <Link to="/Clipping">
-                <i className="fa fa-users"></i> Clipping
+                <i className="fa fa-search mr-2"></i> Clipping
+            </Link>
+            <Link to="/Save">
+                <i className="fa fa-save mr-2"></i> Salvo
             </Link>
         </nav>
     </aside>
